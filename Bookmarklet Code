@@ -1,0 +1,1 @@
+javascript:(function(){var i=0;var f=function(){let l=document.querySelector("*[data-control-name=withdraw_single]");if (!!l){setTimeout(function(){l.click();}, 100);setTimeout(function(){document.querySelector(".artdeco-modal .artdeco-button--primary").click();},1500);setTimeout(function(){f();},2500);}};f();})()
